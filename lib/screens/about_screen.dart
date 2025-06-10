@@ -31,12 +31,16 @@ class AboutScreen extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Text(
-              'Desenvolvedor:',
+              'Desenvolvedores:',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 5),
             Text(
-              'Seu Nome Completo', // **Mude para o seu nome**
+              'Gabriel Pengo de Assis',
+              style: TextStyle(fontSize: 16),
+            ),
+            Text(
+              'João Pedro Paschoalini',
               style: TextStyle(fontSize: 16),
             ),
             SizedBox(height: 20),
